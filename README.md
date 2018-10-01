@@ -1,5 +1,5 @@
 # CodeCoverageTool
 
 <script>
-  <a href="#"/>Click to install<a>
+  <a href="#"/>https://google.com<a>
   </script>
