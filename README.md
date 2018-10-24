@@ -40,8 +40,6 @@ There are basically two jobs:
 
 <h1>Install From Here</h1> 
 <br/>
-  
-Installation is still a Work in Progress
 
 Sandbox : <a href="https://test.salesforce.com/packaging/installPackage.apexp?p0=04t7F000005145b" target="_blank">Click to install</a>
 <br/>  
