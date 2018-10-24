@@ -44,9 +44,27 @@ There are basically two jobs:
 Installation is still a Work in Progress
 
 <!--
-Sandbox : <a href="https://google.com" target="_blank">Click to install</a>
+Sandbox : <a href="https://test.salesforce.com/packaging/installPackage.apexp?p0=04t7F000005145b" target="_blank">Click to install</a>
 <br/>  
-production : <a href="https://google.com" target="_blank">Click to install</a>
+production : <a href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000005145b" target="_blank">Click to install</a>
 -->
+
+
+Password: Ritesh@123
+
+Post Installation Step:
+Step 1: Create a remote site setting:
+Name: CodeCoverageSite
+Url: The base URL of org.
+Example: https://telstra--hpsedev.cs72.my.salesforce.com
+
+Step 2: schedule the classes CodeCoverageStartingJob and CodeCoverageReportingJob with a interval of 2 hours between them.
+
+Additional Information:
+To add the mail recipients, go to:
+custom setting >> CodeCoverageQueueSetting >> TestClassQueueId>>acctc__Email_Recipients__c
+and update the recipients.
+Please note, email addresses should be separated by comma.
+
  
   
