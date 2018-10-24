@@ -50,17 +50,27 @@ production : <a href="https://login.salesforce.com/packaging/installPackage.apex
 Password: Ritesh@123
 
 Post Installation Step:
-Step 1: Create a remote site setting:
+<br/>
+<b>Step 1:</b> Create a remote site setting:
+<br/>
 Name: CodeCoverageSite
+<br/>
 Url: The base URL of org.
+<br/>
 Example: https://myorg.salesforce.com
+<br/>
+<br/>
 
-Step 2: schedule the classes CodeCoverageStartingJob and CodeCoverageReportingJob with a interval of 2 hours between them.
+<b>Step 2:</b> schedule the classes CodeCoverageStartingJob and CodeCoverageReportingJob with a interval of 2 hours between them.
+<br/>
+<br/>
 
-Additional Information:
+<b>Additional Information:</b>
+<br/>
 To add the mail recipients, go to:
-custom setting >> CodeCoverageQueueSetting >> TestClassQueueId>>acctc__Email_Recipients__c
+<b>custom setting >> CodeCoverageQueueSetting >> TestClassQueueId>>acctc__Email_Recipients__c</b>
 and update the recipients.
+<br/>
 Please note, email addresses should be separated by comma.
 
  
